@@ -98,7 +98,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ObhVB0A7i1v9n7FMXRn-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value="Gerar numero de&lt;div&gt;conta unico&lt;/div&gt;" vertex="1">
+        <mxCell id="_ObhVB0A7i1v9n7FMXRn-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" value="Gerar numero de&lt;div&gt;conta&lt;/div&gt;" vertex="1">
           <mxGeometry height="37.5" width="105" x="472.5" y="342.5" as="geometry" />
         </mxCell>
       </root>
