@@ -13,9 +13,11 @@ public class MenuInicial {
     public int imprimirMenuInical() {
         System.out.println("-----MENU INICIAL-----");
         System.out.println("ESCOLHA UMA OPCAO: ");
+        System.out.println(" ");
         System.out.println("1 - Login: ");
         System.out.println("2 - Criar Conta: ");
         System.out.println("3 - Sair: ");
+
         return leitor.nextInt();
     }
 

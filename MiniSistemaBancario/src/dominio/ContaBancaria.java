@@ -6,4 +6,13 @@ public class ContaBancaria {
     private double saldo;
     private String senhaConta;
 
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
 }
