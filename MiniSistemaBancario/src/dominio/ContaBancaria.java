@@ -1,6 +1,10 @@
 package dominio;
 
+import java.util.Scanner;
+
 public class ContaBancaria {
+    Scanner leitor = new Scanner(System.in);
+
     private String titular;
     private int numeroDaConta;
     private double saldo;
@@ -14,14 +18,18 @@ public class ContaBancaria {
         return titular;
     }
 
-    public void setSaldo(double saldo) {
-        this.saldo += saldo;
+    public void setSaldo() {
+        System.out.print("\n Digite o valor a ser depositado: R$");
+        double valorDeposito = leitor.nextDouble();
+        this.saldo += valorDeposito;
         System.out.println("DEPOSITO CONCLUIDO!");
         System.out.println("Valor do deposito: " + saldo);
         System.out.println("Saldo atual: " + this.saldo);
     }
 
-    public void saque(double valorSaque) {
+    public void saque() {
+        System.out.print("\n Digite o valor de saque: R$");
+        double valorSaque = leitor.nextDouble();
         if (this.saldo < valorSaque) {
             System.out.println("Saldo insuficiente!");
             return;
