@@ -10,6 +10,13 @@ public class ContaBancaria {
     private double saldo;
     private String senhaConta;
 
+    public ContaBancaria (String titular, int numeroDaConta, double saldo, String senhaConta) {
+        this.titular = titular;
+        this.numeroDaConta = numeroDaConta;
+        this.saldo = saldo;
+        this.senhaConta = senhaConta;
+    }
+
     public void setTitular(String titular) {
         this.titular = titular;
     }

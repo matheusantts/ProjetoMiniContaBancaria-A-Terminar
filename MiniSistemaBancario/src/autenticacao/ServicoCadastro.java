@@ -3,8 +3,6 @@ package autenticacao;
 import dominio.ContaBancaria;
 
 public class ServicoCadastro {
-    ContaBancaria novoUsuario = new ContaBancaria();
-
     public boolean servicoCadastro() {
         return true;
     }
@@ -34,6 +32,6 @@ public class ServicoCadastro {
     }
 
     public void CadastroNoBancoDeDados() {
-
+        // fazer funcao para registrar linha por linha no arquivo de dados
     }
 }
