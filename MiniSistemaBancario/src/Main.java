@@ -1,12 +1,7 @@
-import dominio.ContaBancaria;
-import menu.MenuInicial;
+import sistema.MenuPrincipal;
 
 void main() throws IOException {
-    /*
-    MenuInicial menuInicial = new MenuInicial();
+    MenuPrincipal menuPrincipal = new MenuPrincipal();
 
-    menuInicial.menuInicial();
-    */
-
-    System.out.println("Hello World!");
+    menuPrincipal.menuPrincipal();
 }

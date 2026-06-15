@@ -1,6 +1,4 @@
-package menu;
-
-import dominio.ContaBancaria;
+package sistema;
 
 import java.util.Scanner;
 

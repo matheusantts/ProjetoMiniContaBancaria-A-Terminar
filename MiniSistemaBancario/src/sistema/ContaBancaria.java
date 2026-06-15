@@ -1,4 +1,4 @@
-package dominio;
+package sistema;
 
 import java.util.Scanner;
 
@@ -9,13 +9,6 @@ public class ContaBancaria {
     private int numeroDaConta;
     private double saldo;
     private String senhaConta;
-
-    public ContaBancaria (String titular, int numeroDaConta, double saldo, String senhaConta) {
-        this.titular = titular;
-        this.numeroDaConta = numeroDaConta;
-        this.saldo = saldo;
-        this.senhaConta = senhaConta;
-    }
 
     public void setTitular(String titular) {
         this.titular = titular;
